@@ -1,0 +1,113 @@
+body {
+  color: #61c1c3;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 4px;
+  font-family: 'Coming Soon', cursive;
+  background: #c5deda;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+#page {
+    background-image: url("img/grass.jpg");
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset -7px -1px 61px -9px rgba(40,99,29,0.66);
+    -moz-box-shadow: inset -7px -1px 61px -9px rgba(40,99,29,0.66);
+    box-shadow: inset -7px -1px 61px -9px rgba(40,99,29,0.66);
+    border: 1px solid #2f9738;
+    height: 700px;
+}
+
+#tree1 {
+  float: right;
+  margin-top: 25%;
+  margin-right: -2%;
+}
+
+#tree2 {
+  float: left;
+  margin-top: -70px;
+  margin-left: -30px;
+}
+
+section#game {
+			width: 480px;
+			height: 600px;
+			max-width: 100%;
+			max-height: 100%;
+			overflow: hidden;
+			position: relative;
+			background-image: url('img/background.png');
+			background-position: 80% 90%, 10% 90%, left bottom, left top;
+			background-repeat: no-repeat, no-repeat, repeat-x, repeat-x;	
+			position: relative;
+			color: #ffffff;
+			font-size: 30px;
+		  font-family: 'Coming Soon', cursive;
+      -webkit-box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.65);
+      -moz-box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.65);
+      box-shadow: 5px 6px 14px -6px rgba(0,0,0,0.65);
+      border-radius: 10px;
+      border: 2px solid #5ab2b4;
+      float: left;
+      margin-left: 25%;
+      margin-top: -17%;
+}
+		
+section#game .score{
+			display: block;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		
+		section#game .time{
+			display: block;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+		
+		section#game .start{
+			display: block;
+			padding-top: 25%;
+			margin: 0 auto 0 auto;
+			text-align: center;
+			width: 50%;
+			cursor: pointer;
+      letter-spacing: 3px;
+      font-size: 30px;
+      font-weight: bold;
+		}
+		
+		section#game .start .high-scores{
+			text-align: left;
+		}
+		
+		section#game .snack{
+			display: block;
+			position: absolute;
+			width: 40px;
+			height: 44px;
+			cursor: pointer;
+		}
+		
+		section#game .snack.red{
+			background: url('img/red-apple.png') no-repeat top left;
+		}
+		
+		section#game .snack.cookie{
+			background: url('img/cookie.png') no-repeat top left;
+		}
+		
+		section#game .snack.green{
+			background: url('img/green-apple.png') no-repeat top left;
+		}
